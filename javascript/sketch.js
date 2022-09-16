@@ -3,7 +3,7 @@ var current_maze = [];
 var solved_maze = [[], []];
 
 function preload(){
-	mazes = loadJSON("../mazes/mazes.json");
+	// mazes = loadJSON("../mazes/mazes.json");
 }
 
 function setup() {
