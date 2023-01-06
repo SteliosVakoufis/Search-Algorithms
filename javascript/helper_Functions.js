@@ -57,6 +57,8 @@ function setupMazeColors(){
 function displayMaze(maze, DMS){
     let pos = DMS["startDrawPos"].slice();
     let size = DMS["blockSize"];
+    stroke(245);
+    rectMode(CORNER);
     for (let i = 0; i < DMS["length"]; i++){
         for (let j = 0; j < DMS["length"]; j++){
             fill(mazeColors[maze[i][j]]);
@@ -76,7 +78,6 @@ function visualizeSolution(solved_maze, current_maze){
 
     return current_maze;
 }
-
 
 // Helper Functions for Solver.js
 function findIndex (maze, ch){
