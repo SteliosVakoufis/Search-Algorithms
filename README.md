@@ -1,5 +1,5 @@
 # Search-Algorithms
-The project is hosted on github pages on this [link](https://zeenus.github.io/Search-Algorithms/)\
+The project is hosted on github pages on this [link](https://steliosvakoufis.github.io/Search-Algorithms/)\
 and it demonstrates 3 different kinds of search algorithms on a random grid based maze.\
 \
 Breadth first search, depth first search and A* (Astar) search algorithms are used \
